@@ -1,18 +1,26 @@
-import './globals.css'
+import Head from "next/head";
+// import "./globals.css";
+import "./output.css";
+import { Montserrat } from "@next/font/google";
+
+const montserrat = Montserrat({
+	subsets: ["latin"],
+	variable: "--font-montserrat",
+});
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
-    </html>
-  )
+	return (
+		<html lang="en" className="scroll-smooth">
+			<head />
+			<body
+				className={`${montserrat.variable} font-sans min-h-screen min-w-screen bg-bg`}
+			>
+				{children}
+			</body>
+		</html>
+	);
 }
