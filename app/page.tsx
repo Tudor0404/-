@@ -3149,10 +3149,7 @@ export default function Home() {
 	const [animationTime, setAnimationTime] = useState(3000);
 	const [over18, setOver18] = useState<null | boolean>(false);
 	const [mousePos, setMousePos] = useState<any>({});
-	const [windowSize, setWindowSize] = useState([
-		window.innerWidth,
-		window.innerHeight,
-	]);
+	const [windowSize, setWindowSize] = useState<number[]>([1000, 1000]);
 
 	useEffect(() => {
 		const cookie = getCookie("over18");
@@ -3161,12 +3158,10 @@ export default function Home() {
 	}, []);
 
 	useEffect(() => {
-		if (document.body) {
-			if (over18) {
-				document.body.style.overflow = "";
-			} else {
-				document.body.style.overflow = "hidden";
-			}
+		if (over18) {
+			document.body.style.overflow = "";
+		} else {
+			document.body.style.overflow = "hidden";
 		}
 	}, [over18]);
 
@@ -3186,7 +3181,9 @@ export default function Home() {
 	// window size
 	useEffect(() => {
 		const handleWindowResize = () => {
-			setWindowSize([window.innerWidth, window.innerHeight]);
+			if (typeof window !== "undefined") {
+				setWindowSize([window.innerWidth, window.innerHeight]);
+			}
 		};
 
 		window.addEventListener("resize", handleWindowResize);
