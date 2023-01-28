@@ -10,12 +10,18 @@ import Image from "next/image";
 
 const lottie1 = {
 	v: "4.8.0",
-	meta: { g: "LottieFiles AE 3.1.1", a: "", k: "", d: "", tc: "" },
+	meta: {
+		g: "LottieFiles AE 3.1.1",
+		a: "Tudor Popescu",
+		k: "",
+		d: "",
+		tc: "",
+	},
 	fr: 60,
 	ip: 0,
 	op: 402,
-	w: 1920,
-	h: 1080,
+	w: 350,
+	h: 600,
 	nm: "main",
 	ddd: 0,
 	assets: [],
@@ -39,7 +45,7 @@ const lottie1 = {
 			ks: {
 				o: { a: 0, k: 100, ix: 11 },
 				r: { a: 0, k: 0, ix: 10 },
-				p: { a: 0, k: [843.133, 759.555, 0], ix: 2 },
+				p: { a: 0, k: [178.133, 567.555, 0], ix: 2 },
 				a: { a: 0, k: [0, 0, 0], ix: 1 },
 				s: { a: 0, k: [129.2, 129.2, 100], ix: 6 },
 			},
@@ -80,7 +86,7 @@ const lottie1 = {
 			ks: {
 				o: { a: 0, k: 100, ix: 11 },
 				r: { a: 0, k: 0, ix: 10 },
-				p: { a: 0, k: [838.5, 248, 0], ix: 2 },
+				p: { a: 0, k: [173.5, 56, 0], ix: 2 },
 				a: { a: 0, k: [0, 0, 0], ix: 1 },
 				s: { a: 0, k: [129.209, 129.209, 100], ix: 6 },
 			},
@@ -121,7 +127,7 @@ const lottie1 = {
 			ks: {
 				o: { a: 0, k: 100, ix: 11 },
 				r: { a: 0, k: 0, ix: 10 },
-				p: { a: 0, k: [841, 492, 0], ix: 2 },
+				p: { a: 0, k: [176, 300, 0], ix: 2 },
 				a: { a: 0, k: [141.5, 273, 0], ix: 1 },
 				s: { a: 0, k: [100, 100, 100], ix: 6 },
 			},
@@ -3211,11 +3217,11 @@ export default function Home() {
 
 	return (
 		<main
-			className={` m-0 mx-auto min-h-screen text-text grid grid-cols-2 sm:grid-cols-3  ${
+			className={`m-0 mx-auto min-h-screen text-text  ${
 				!over18 && "!overflow-hidden"
 			}`}
 		>
-			<div className="relative col-span-full flex justify-between items-center flex-col h-screen text-xl mb-40 bg-darkBG shadow-2xl">
+			<div className="relative w-full flex justify-between items-center flex-col h-screen text-xl mb-40 bg-darkBG shadow-2xl">
 				<div
 					className={`m-2 px-4 pt-2 rounded-lg text-text bg-text bg-opacity-5 shadow-md -translate-y-24 transition-all duration-500 ease-in-out ${
 						over18 == null ? "!translate-y-0" : "!-translate-y-24"
@@ -3270,125 +3276,136 @@ export default function Home() {
 				</a>
 			</div>
 
-			<div
-				className="col-span-2 sm:col-start-1 sm:text-center mb-40 container px-8"
-				id="intro"
-			>
-				<Image
-					src="/logo.svg"
-					width={200}
-					height={300}
-					alt="Evaline logo"
-					className="m-0 mx-auto"
-				/>
+			<div className="grid grid-cols-2 sm:grid-cols-3 max-w-5xl m-0 mx-auto">
+				<div
+					className="col-span-2 sm:col-start-1 sm:text-center mb-8 sm:mb-40 container px-8 max-w-2xl"
+					id="intro"
+				>
+					<Image
+						src="/logo.svg"
+						width={200}
+						height={300}
+						alt="Evaline logo"
+						className="m-0 mx-auto"
+					/>
 
-				<p className="text-xl font-light mt-6">
-					At Evaline, our mission is to empower women with a better
-					understanding of their sexual needs and desires through our{" "}
-					<span className="text-accent font-medium">
-						unique AI-driven bio-responsive stimulators
-					</span>{" "}
-					, providing them with the most personalised and satisfying
-					experience in the market.<br></br>
-					<br></br> We strive for extreme innovation, and our goal is
-					to set ourselves as the state of the art in the sex-tech
-					industry within this decade, all while{" "}
-					<span className="text-accent font-medium">
-						pushing the boundaries of research in female pleasure
-					</span>{" "}
-					and maintaining a sustainable supply chain.
-				</p>
-			</div>
-			<div className="flex justify-center items-center">
-				<Lottie
-					options={{
-						loop: true,
-						autoplay: true,
-						animationData: lottie1,
-						rendererSettings: {
-							preserveAspectRatio: "xMidYMid slice",
-						},
-					}}
-					height={550}
-					width={600}
-				/>
+					<p className="text-xl font-light mt-6">
+						At Evaline, our mission is to empower women with a
+						better understanding of their sexual needs and desires
+						through our{" "}
+						<span className="text-accent font-medium">
+							unique AI-driven bio-responsive stimulators
+						</span>{" "}
+						, providing them with the most personalised and
+						satisfying experience in the market.<br></br>
+						<br></br> We strive for extreme innovation, and our goal
+						is to set ourselves as the state of the art in the
+						sex-tech industry within this decade, all while{" "}
+						<span className="text-accent font-medium">
+							pushing the boundaries of research in female
+							pleasure
+						</span>{" "}
+						and maintaining a sustainable supply chain.
+					</p>
+				</div>
+				<div className="flex justify-center items-center col-span-full sm:col-span-1 mb-40 sm:mb-0 ">
+					<Lottie
+						options={{
+							loop: true,
+							autoplay: true,
+							animationData: lottie1,
+							rendererSettings: {
+								preserveAspectRatio: "xMidYMid slice",
+							},
+						}}
+						height={412.5}
+						width={262.5}
+					/>
+				</div>
+
+				<div className=" justify-center items-center hidden sm:flex ">
+					<Lottie
+						options={{
+							loop: true,
+							autoplay: true,
+							animationData: lottie2,
+							rendererSettings: {
+								preserveAspectRatio: "xMidYMid slice",
+							},
+						}}
+						height={341.25}
+						width={271.5}
+					/>
+				</div>
+
+				<div className="col-span-2 sm:text-center sm:mb-40 max-w-2xl px-8">
+					<h1 className="text-5xl font-bold text-main text-center">
+						EvaVibe
+					</h1>
+					<p className="text-xl font-light mt-6">
+						EvaVibe is the{" "}
+						<span className="text-accent font-medium">
+							first AI-driven hands-free sexual stimulator
+						</span>{" "}
+						to combine biofeedback with deep learning and
+						variational geometry techniques: it searches first for
+						your pleasure hot-spots, and stimulates them your
+						characterisic frequencies, or, in simpler words,{" "}
+						<span className="text-accent font-medium">
+							it truly vibes with you
+						</span>
+						.
+					</p>
+				</div>
+
+				<div className="flex justify-center items-center sm:hidden col-span-full mb-40 sm:m-0">
+					<Lottie
+						options={{
+							loop: true,
+							autoplay: true,
+							animationData: lottie2,
+							rendererSettings: {
+								preserveAspectRatio: "xMidYMid slice",
+							},
+						}}
+						height={341.25}
+						width={271.5}
+					/>
+				</div>
+				<div className="col-span-2 sm:col-start-1 sm:text-center max-w-2xl px-8 ">
+					<h1 className="text-5xl font-bold text-main text-center">
+						About us
+					</h1>
+
+					<p className="text-xl font-light mt-6">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu
+						fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
+					</p>
+				</div>
+				<div></div>
+				<hr className="col-span-full mt-40 opacity-30"></hr>
 			</div>
 
-			<div className="flex justify-center items-center ">
-				<Lottie
-					options={{
-						loop: true,
-						autoplay: true,
-						animationData: lottie2,
-						rendererSettings: {
-							preserveAspectRatio: "xMidYMid slice",
-						},
-					}}
-					height={300}
-					width={400}
-				/>
-			</div>
-
-			<div className="col-span-2 sm:text-center mb-40 container px-8">
-				<h1 className="text-5xl font-bold text-main text-center">
-					EvaVibe
-				</h1>
-				<p className="text-xl font-light mt-6">
-					EvaVibe is the{" "}
-					<span className="text-accent font-medium">
-						first AI-driven hands-free sexual stimulator
-					</span>{" "}
-					to combine biofeedback with deep learning and variational
-					geometry techniques: it searches first for your pleasure
-					hot-spots, and stimulates them your characterisic
-					frequencies, or, in simpler words,{" "}
-					<span className="text-accent font-medium">
-						it truly vibes with you
-					</span>
-					.
-				</p>
-			</div>
-
-			<div className="flex justify-center items-center sm:hidden">
-				<Lottie
-					options={{
-						loop: true,
-						autoplay: true,
-						animationData: lottie2,
-						rendererSettings: {
-							preserveAspectRatio: "xMidYMid slice",
-						},
-					}}
-					height={400}
-					width={400}
-				/>
-			</div>
-			<div className="col-span-2 sm:col-start-1 sm:text-center container px-8">
-				<h1 className="text-5xl font-bold text-main text-center">
-					About us
-				</h1>
-
-				<p className="text-xl font-light mt-6">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					Duis aute irure dolor in reprehenderit in voluptate velit
-					esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-					occaecat cupidatat non proident, sunt in culpa qui officia
-					deserunt mollit anim id est laborum.
-				</p>
-			</div>
-			<div></div>
-			<hr className="col-span-full mt-40 opacity-30"></hr>
-			<div className="col-span-full flex flex-row justify-between items-center my-8 container px-8 mx-auto">
-				<p> EVALINE</p>
-				<a className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer">
+			<div className="w-full grid grid-cols-3 items-center my-8 container px-8 mx-auto">
+				<p className="text-left"> EVALINE</p>
+				<a
+					className="text-text hover:text-main transition-all duration-200 flex flex-row justify-center items-center cursor-pointer "
+					href="https://www.instagram.com/the.evaline/"
+					target={"_blank"}
+					rel="noreferrer"
+				>
 					<BsInstagram size={"20px"} className="mr-2" />{" "}
 					<p> the.evaline</p>
 				</a>
-				<a className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer">
-					<p> Designed by Obelsoft</p>
+				<a className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer ">
+					<p className="text-right w-full"> Designed by Obelsoft</p>
 				</a>
 			</div>
 		</main>
