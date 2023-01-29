@@ -3200,6 +3200,10 @@ export default function Home() {
 
 		window.addEventListener("resize", handleWindowResize);
 
+		setTimeout(() => {
+			handleWindowResize();
+		}, 200);
+
 		return () => {
 			window.removeEventListener("resize", handleWindowResize);
 		};
@@ -3275,9 +3279,11 @@ export default function Home() {
 					<div
 						className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
 						onClick={scrollWholePage}
-						style={{ animationDuration: animationTime / 6 + "ms" }}
+						style={{ animationDuration: animationTime / 4 + "ms" }}
 					>
-						<p className="shake">EVALINE</p>
+						<p className={over18 === false ? "" : "shake"}>
+							EVALINE
+						</p>
 					</div>
 				</div>
 				<div
