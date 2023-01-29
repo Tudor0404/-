@@ -3459,7 +3459,12 @@ export default function Home() {
 					<BsInstagram size={"20px"} className="mr-2" />{" "}
 					<p> the.evaline</p>
 				</a>
-				<a className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer ">
+				<a
+					className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer "
+					href="https://obelussoft.com/"
+					target={"_blank"}
+					rel="noreferrer"
+				>
 					<p className="text-right w-full"> Designed by Obelsoft</p>
 				</a>
 			</div>
