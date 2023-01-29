@@ -3316,7 +3316,7 @@ export default function Home() {
 						through our{" "}
 						<span className="text-accent font-medium">
 							unique AI-driven bio-responsive stimulators
-						</span>{" "}
+						</span>
 						, providing them with the most personalised and
 						satisfying experience in the market.<br></br>
 						<br></br> We strive for extreme innovation, and our goal
@@ -3407,34 +3407,41 @@ export default function Home() {
 					</h1>
 
 					<p className="text-xl font-light mt-6">
-						At Evaline,{" "}
+						We are a team of scientists and engineers who decided to
+						join forces to create a unique and innovative product to
+						disrupt an industry that has been unjustly stalling for
+						decades.
+						<br></br>
+						<br></br>
+						We are rigorously sustainable, both in terms of
+						materials and supply chain, our device is not only good
+						for your body, but also for the planet. Our device is
+						designed with the highest quality standards, ensuring
+						that it is not only functional, but also aesthetically
+						pleasing. With its sleek and elegant design, it is a
 						<span className="text-accent font-medium">
-							we are dedicated to empowering women to take control
-							of their sexual wellness
+							luxurious and sophisticated addition to any bedroom
+						</span>
+						.<br></br>
+						<br></br>
+						Ultimately, we believe that{" "}
+						<span className="text-accent font-medium">
+							sexuality is a fundamental aspect of being human
 						</span>{" "}
-						through the latest scientific and technological
-						advancements. Our team is composed of experts in the
-						fields of physics, engineering, design, psychology and
-						sexual therapy, coming together create a unique and
-						innovative product to disrupt an industry that has been
-						unjustly stalling for decades.
-						<br></br>
-						<br></br>
-						Ultimately, we believe that sexuality is a fundamental
-						aspect of being human and our mission is to create
-						technology that enhances and elevates the sexual
-						experience, closely matching women&apos;s needs and
-						desires. EvaVibe is not just the Nth vibrating device,
-						but a tool for self-discovery and expression.
+						and our mission is to create technology that enhances
+						and elevates the sexual experience , closely matching
+						women&apos;s needs and desires. EvaVibe is not just the
+						Nth vibrating device, but a tool for self-discovery and
+						expression.
 						<br></br>
 						<br></br>
 						Thank you for choosing Evaline, and we look forward to
 						empowering you to take control of your sexual wellbeing,
 						providing you with the ultimate blend of sensuality and
-						technology.
+						technology.{" "}
 						<span className="text-accent font-medium">
 							Get ready to be understood deep down…
-						</span>{" "}
+						</span>
 					</p>
 				</div>
 				<div></div>
