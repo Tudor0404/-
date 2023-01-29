@@ -3145,8 +3145,8 @@ const lottie2 = {
 };
 
 export default function Home() {
-	const [proximity, setProximity] = useState(500);
 	const [animationTime, setAnimationTime] = useState(3000);
+	const [animationMult, setAnimationMult] = useState(1);
 	const [over18, setOver18] = useState<null | boolean>(false);
 	const [mousePos, setMousePos] = useState<any>({});
 	const [windowSize, setWindowSize] = useState<number[]>([1000, 1000]);
@@ -3154,12 +3154,18 @@ export default function Home() {
 	useEffect(() => {
 		const cookie = getCookie("over18");
 		if (cookie) setOver18(true);
-		else setOver18(null);
+		else {
+			setOver18(null);
+			if (window) {
+				window.scrollTo({ top: 0, behavior: "smooth" });
+			}
+		}
 	}, []);
 
 	useEffect(() => {
 		if (over18) {
 			document.body.style.overflow = "";
+			setAnimationMult(0.5);
 		} else {
 			document.body.style.overflow = "hidden";
 		}
@@ -3178,6 +3184,12 @@ export default function Home() {
 		};
 	}, []);
 
+	function scrollWholePage() {
+		if (window && over18) {
+			window.scrollTo({ top: windowSize[1], behavior: "smooth" });
+		}
+	}
+
 	// window size
 	useEffect(() => {
 		const handleWindowResize = () => {
@@ -3191,7 +3203,7 @@ export default function Home() {
 		return () => {
 			window.removeEventListener("resize", handleWindowResize);
 		};
-	});
+	}, []);
 
 	useEffect(() => {
 		let midX = windowSize[0] / 2;
@@ -3202,13 +3214,13 @@ export default function Home() {
 		);
 
 		if (distance < 70) {
-			setAnimationTime(800);
+			setAnimationTime(800 * animationMult);
 		} else if (distance < 150) {
-			setAnimationTime(1000);
+			setAnimationTime(1000 * animationMult);
 		} else if (distance < 300) {
-			setAnimationTime(2000);
-		} else if (animationTime != 3000) {
-			setAnimationTime(3000);
+			setAnimationTime(2000 * animationMult);
+		} else if (animationTime != 3000 * animationMult) {
+			setAnimationTime(3000 * animationMult);
 		}
 	}, [windowSize, mousePos]);
 
@@ -3218,10 +3230,10 @@ export default function Home() {
 				!over18 && "!overflow-hidden"
 			}`}
 		>
-			<div className="relative w-full flex justify-between items-center flex-col h-screen text-xl mb-40 bg-darkBG shadow-2xl">
+			<div className="relative w-full flex justify-between items-center flex-col !h-screen text-xl mb-40 bg-darkBG shadow-2xl">
 				<div
-					className={`m-2 px-4 pt-2 rounded-lg text-text bg-text bg-opacity-5 shadow-md -translate-y-24 transition-all duration-500 ease-in-out ${
-						over18 == null ? "!translate-y-0" : "!-translate-y-24"
+					className={`mt-20 px-8 pt-2 rounded-lg text-text bg-text bg-opacity-5 shadow-md -translate-y-44 transition-all duration-500 ease-in-out border-main border-opacity-20 border-2 ${
+						over18 == null ? "!translate-y-0" : "!-translate-y-44"
 					}`}
 				>
 					<p>Are you over 18?</p>
@@ -3245,13 +3257,12 @@ export default function Home() {
 				</div>
 
 				<div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
-					<a
-						className=" pulse p-8 rounded-full"
+					<div
+						className=" pulse p-8 rounded-full animate-bounce text-transparent"
 						style={{ animationDuration: animationTime + "ms" }}
-						href="#intro"
 					>
-						EVALINE
-					</a>
+						Evaline
+					</div>
 					<div
 						className="absolute pulse-big left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full p-20 text-transparent -z-10"
 						style={{
@@ -3261,16 +3272,23 @@ export default function Home() {
 					>
 						EVALINE
 					</div>
+					<div
+						className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+						onClick={scrollWholePage}
+						style={{ animationDuration: animationTime / 6 + "ms" }}
+					>
+						<p className="shake">EVALINE</p>
+					</div>
 				</div>
-				<a
+				<div
 					className={`mb-4 translate-y-0 duration-500 ease-in-out animate-bounce cursor-pointer ${
 						over18 === true ? "translate-y-0" : "!translate-y-10"
 					}`}
 					style={{ animationDuration: animationTime / 2 + "ms" }}
-					href="#intro"
+					onClick={scrollWholePage}
 				>
 					<HiOutlineArrowDown size={"20px"} />
-				</a>
+				</div>
 			</div>
 
 			<div className="grid grid-cols-2 sm:grid-cols-3 max-w-5xl m-0 mx-auto">

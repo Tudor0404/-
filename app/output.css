@@ -579,10 +579,6 @@ video {
   margin: 0px;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -595,6 +591,10 @@ video {
 
 .mb-40 {
   margin-bottom: 10rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-1 {
@@ -633,8 +633,8 @@ video {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
+.\!h-screen {
+  height: 100vh !important;
 }
 
 .min-h-screen {
@@ -653,8 +653,8 @@ video {
   max-width: 42rem;
 }
 
-.-translate-y-24 {
-  --tw-translate-y: -6rem;
+.-translate-y-44 {
+  --tw-translate-y: -11rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -663,8 +663,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
-.\!-translate-y-24 {
-  --tw-translate-y: -6rem !important;
+.\!-translate-y-44 {
+  --tw-translate-y: -11rem !important;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
@@ -760,6 +760,19 @@ video {
   border-radius: 9999px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-main {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 71 111 / var(--tw-border-opacity));
+}
+
+.border-opacity-20 {
+  --tw-border-opacity: 0.2;
+}
+
 .bg-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
@@ -789,11 +802,6 @@ video {
 
 .p-2 {
   padding: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-8 {
@@ -930,6 +938,11 @@ video {
   animation: pulse-animation-big infinite;
 }
 
+.shake {
+  animation: shake-animation 0.3s cubic-bezier(0.36, 0.07, 0.19, 0.97)
+			infinite;
+}
+
 @keyframes pulse-animation {
   0% {
     box-shadow: 0 0 0 0px rgba(239, 71, 111, 0.3);
@@ -955,6 +968,36 @@ video {
 
   100% {
     box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes shake-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateY(-3px);
+  }
+
+  35% {
+    transform: translateY(-5px);
+  }
+
+  55% {
+    transform: translateY(-2px);
+  }
+
+  65% {
+    transform: translateY(-0px);
+  }
+
+  75% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
