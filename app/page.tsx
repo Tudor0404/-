@@ -3364,16 +3364,24 @@ export default function Home() {
 						EvaVibe
 					</h1>
 					<p className="text-xl font-light mt-6">
-						EvaVibe is the{" "}
+						EvaVibe, our flagship product, is a{" "}
 						<span className="text-accent font-medium">
-							first AI-driven hands-free sexual stimulator
+							customizable, AI-driven, 3D-printed
 						</span>{" "}
-						to combine biofeedback with deep learning and
-						variational geometry techniques: it searches first for
-						your pleasure hot-spots, and stimulates them your
-						characterisic frequencies, or, in simpler words,{" "}
+						device that combines variational geometry and deep
+						learning techniques to provide a (truly) personalized
+						and intimate experience. Rigourosly sustainable at the
+						core, both in terms of materials and supply chain, our
+						device is not only good for your body, but also for the
+						planet.
+						<br></br>
+						<br></br>
+						Our device is designed with the highest quality
+						standards, ensuring that it is not only functional, but
+						also aesthetically pleasing. With its sleek and elegant
+						design, it is a{" "}
 						<span className="text-accent font-medium">
-							it truly vibes with you
+							luxurious and sophisticated addition to any bedroom
 						</span>
 						.
 					</p>
@@ -3399,30 +3407,17 @@ export default function Home() {
 					</h1>
 
 					<p className="text-xl font-light mt-6">
-						At Evaline, we are dedicated to empowering women to take
-						control of their sexual wellness through the latest
-						scientific and technological advancements. Our team is
-						composed of experts in the fields of physics,
-						engineering, design, psychology and sexual therapy,
-						coming together create a unique and innovative product
-						to disrupt an industry that has been unjustly stalling
-						for decades.
-						<br></br>
-						<br></br>
-						EvaVibe, our flagship product, is a customizable,
-						AI-driven, 3D-printed device that combines variational
-						geometry and deep learning techniques to provide a
-						(truly) personalized and intimate experience. Rigourosly
-						sustainable at the core, both in terms of materials and
-						supply chain, our device is not only good for your body,
-						but also for the planet.
-						<br></br>
-						<br></br>
-						Our device is designed with the highest quality
-						standards, ensuring that it is not only functional, but
-						also aesthetically pleasing. With its sleek and elegant
-						design, it is a luxurious and sophisticated addition to
-						any bedroom.
+						At Evaline,{" "}
+						<span className="text-accent font-medium">
+							we are dedicated to empowering women to take control
+							of their sexual wellness
+						</span>{" "}
+						through the latest scientific and technological
+						advancements. Our team is composed of experts in the
+						fields of physics, engineering, design, psychology and
+						sexual therapy, coming together create a unique and
+						innovative product to disrupt an industry that has been
+						unjustly stalling for decades.
 						<br></br>
 						<br></br>
 						Ultimately, we believe that sexuality is a fundamental
@@ -3436,7 +3431,10 @@ export default function Home() {
 						Thank you for choosing Evaline, and we look forward to
 						empowering you to take control of your sexual wellbeing,
 						providing you with the ultimate blend of sensuality and
-						technology. Get ready to be understood deep down…
+						technology.
+						<span className="text-accent font-medium">
+							Get ready to be understood deep down…
+						</span>{" "}
 					</p>
 				</div>
 				<div></div>
