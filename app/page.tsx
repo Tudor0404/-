@@ -3428,9 +3428,9 @@ export default function Home() {
 						Ultimately, we believe that sexuality is a fundamental
 						aspect of being human and our mission is to create
 						technology that enhances and elevates the sexual
-						experience, closely matching women's needs and desires.
-						EvaVibe is not just the Nth vibrating device, but a tool
-						for self-discovery and expression.
+						experience, closely matching women&apos;s needs and
+						desires. EvaVibe is not just the Nth vibrating device,
+						but a tool for self-discovery and expression.
 						<br></br>
 						<br></br>
 						Thank you for choosing Evaline, and we look forward to
