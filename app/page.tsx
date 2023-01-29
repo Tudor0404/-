@@ -3399,15 +3399,44 @@ export default function Home() {
 					</h1>
 
 					<p className="text-xl font-light mt-6">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu
-						fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit
-						anim id est laborum.
+						At Evaline, we are dedicated to empowering women to take
+						control of their sexual wellness through the latest
+						scientific and technological advancements. Our team is
+						composed of experts in the fields of physics,
+						engineering, design, psychology and sexual therapy,
+						coming together create a unique and innovative product
+						to disrupt an industry that has been unjustly stalling
+						for decades.
+						<br></br>
+						<br></br>
+						EvaVibe, our flagship product, is a customizable,
+						AI-driven, 3D-printed device that combines variational
+						geometry and deep learning techniques to provide a
+						(truly) personalized and intimate experience. Rigourosly
+						sustainable at the core, both in terms of materials and
+						supply chain, our device is not only good for your body,
+						but also for the planet.
+						<br></br>
+						<br></br>
+						Our device is designed with the highest quality
+						standards, ensuring that it is not only functional, but
+						also aesthetically pleasing. With its sleek and elegant
+						design, it is a luxurious and sophisticated addition to
+						any bedroom.
+						<br></br>
+						<br></br>
+						Ultimately, we believe that sexuality is a fundamental
+						aspect of being human and our mission is to create
+						technology that enhances and elevates the sexual
+						experience, closely matching women's needs and desires.
+						EvaVibe is not just the Nth vibrating device, but a tool
+						for self-discovery and expression.
+						<br></br>
+						<br></br>
+						Thank you for choosing Evaline, and we look forward to
+						empowering you to take control of your sexual wellbeing,
+						providing you with the ultimate blend of sensuality and
+						technology. Get ready to be understood deep down…
 					</p>
 				</div>
 				<div></div>
