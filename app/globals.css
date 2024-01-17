@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.sexual {
+	@apply text-main font-semibold;
+}
+
+.tech {
+	@apply text-accent font-semibold;
+}
+
 @layer utilities {
 	.under-hover {
 		text-decoration: none;
+	}
+
+	.sexual {
+		@apply text-main font-semibold;
+	}
+
+	.tech {
+		@apply text-accent font-semibold;
 	}
 
 	.under-hover::after {

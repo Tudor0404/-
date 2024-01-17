@@ -170,10 +170,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.416035042557, 0.674322629442,
-									0.853293504902, 1,
-								],
+								k: [0.416035042557, 0.674322629442, 0.853293504902, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -268,10 +265,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.416035042557, 0.674322629442,
-									0.853293504902, 1,
-								],
+								k: [0.416035042557, 0.674322629442, 0.853293504902, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -384,10 +378,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.416035042557, 0.674322629442,
-									0.853293504902, 1,
-								],
+								k: [0.416035042557, 0.674322629442, 0.853293504902, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -462,10 +453,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -566,10 +554,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -664,10 +649,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -768,10 +750,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -869,10 +848,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -979,10 +955,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -1086,10 +1059,7 @@ const lottie1 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -2911,10 +2881,7 @@ const lottie2 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -2999,10 +2966,7 @@ const lottie2 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.941903626685, 0.35600196988,
-									0.486836003322, 1,
-								],
+								k: [0.941903626685, 0.35600196988, 0.486836003322, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -3093,10 +3057,7 @@ const lottie2 = {
 							ty: "st",
 							c: {
 								a: 0,
-								k: [
-									0.417891947428, 0.674181291169,
-									0.847983865177, 1,
-								],
+								k: [0.417891947428, 0.674181291169, 0.847983865177, 1],
 								ix: 3,
 							},
 							o: { a: 0, k: 100, ix: 4 },
@@ -3281,9 +3242,7 @@ export default function Home() {
 						onClick={scrollWholePage}
 						style={{ animationDuration: animationTime / 4 + "ms" }}
 					>
-						<p className={over18 === false ? "" : "shake"}>
-							EVALINE
-						</p>
+						<p className={over18 === false ? "" : "shake"}>EVALINE</p>
 					</div>
 				</div>
 				<div
@@ -3311,20 +3270,19 @@ export default function Home() {
 					/>
 
 					<p className="text-xl font-light mt-6">
-						At Evaline, our mission is to empower women with a
-						better understanding of their sexual needs and desires
-						through our{" "}
-						<span className="text-accent font-medium">
+						At Evaline, our mission is to empower women with a better
+						understanding of their sexual needs and desires through our{" "}
+						<span className="tech">
 							unique AI-driven bio-responsive stimulators
 						</span>
-						, providing them with the most personalised and
-						satisfying experience in the market.<br></br>
-						<br></br> We strive for extreme innovation, and our goal
-						is to set ourselves as the state of the art in the
-						sex-tech industry within this decade, all while{" "}
-						<span className="text-accent font-medium">
-							pushing the boundaries of research in female
-							pleasure
+						, providing them with the most personalised and satisfying
+						experience in the market.<br></br>
+						<br></br> We strive for extreme innovation, and our goal is to set
+						ourselves as the state of the art in the{" "}
+						<span className="sexual">sex-tech industry</span> within this
+						decade, all while{" "}
+						<span className="tech">
+							pushing the boundaries of research in female pleasure
 						</span>{" "}
 						and maintaining a sustainable supply chain.
 					</p>
@@ -3360,30 +3318,19 @@ export default function Home() {
 				</div>
 
 				<div className="col-span-2 sm:text-center sm:mb-40 max-w-2xl px-8">
-					<h1 className="text-5xl font-bold text-main text-center">
-						EvaVibe
-					</h1>
+					<h1 className="text-5xl font-bold text-main text-center">EvaVibe</h1>
 					<p className="text-xl font-light mt-6">
-						EvaVibe, our flagship product, is a{" "}
-						<span className="text-accent font-medium">
-							customizable, AI-driven, 3D-printed
-						</span>{" "}
-						device that combines variational geometry and deep
-						learning techniques to provide a (truly) personalized
-						and intimate experience. Rigourosly sustainable at the
-						core, both in terms of materials and supply chain, our
-						device is not only good for your body, but also for the
-						planet.
-						<br></br>
-						<br></br>
-						Our device is designed with the highest quality
-						standards, ensuring that it is not only functional, but
-						also aesthetically pleasing. With its sleek and elegant
-						design, it is a{" "}
-						<span className="text-accent font-medium">
-							luxurious and sophisticated addition to any bedroom
+						Our flagship product, <span className="sexual">EvaVibe</span>, is a
+						testament to extreme innovation. This patented customisable,{" "}
+						<span className="tech">AI-driven</span>, 3D-printed device
+						seamlessly merges biofeedback and deep learning at its core. It
+						delivers a{" "}
+						<span className="sexual">
+							(truly) personalized and intimate experience
 						</span>
-						.
+						, designed with the highest quality standards. EvaVibe is not just
+						functional though — it seeks to be a sleek and elegant addition to
+						any bedroom.
 					</p>
 				</div>
 
@@ -3401,50 +3348,60 @@ export default function Home() {
 						width={271.5}
 					/>
 				</div>
-				<div className="col-span-2 sm:col-start-1 sm:text-center max-w-2xl px-8 ">
-					<h1 className="text-5xl font-bold text-main text-center">
-						About us
-					</h1>
+				<div className="col-span-2 sm:col-start-1 sm:text-center max-w-2xl px-8 mb-40">
+					<h1 className="text-5xl font-bold text-main text-center">About us</h1>
 
 					<p className="text-xl font-light mt-6">
-						We are a team of scientists and engineers who decided to
-						join forces to create a unique and innovative product to
-						disrupt an industry that has been unjustly stalling for
-						decades.
-						<br></br>
-						<br></br>
-						We are rigorously sustainable, both in terms of
-						materials and supply chain, our device is not only good
-						for your body, but also for the planet. Our device is
-						designed with the highest quality standards, ensuring
-						that it is not only functional, but also aesthetically
-						pleasing. With its sleek and elegant design, it is a
-						<span className="text-accent font-medium">
-							luxurious and sophisticated addition to any bedroom
-						</span>
-						.<br></br>
-						<br></br>
-						Ultimately, we believe that{" "}
-						<span className="text-accent font-medium">
-							sexuality is a fundamental aspect of being human
-						</span>{" "}
-						and our mission is to create technology that enhances
-						and elevates the sexual experience , closely matching
-						women&apos;s needs and desires. EvaVibe is not just the
-						Nth vibrating device, but a tool for self-discovery and
-						expression.
-						<br></br>
-						<br></br>
-						Thank you for choosing Evaline, and we look forward to
-						empowering you to take control of your sexual wellbeing,
-						providing you with the ultimate blend of sensuality and
-						technology.{" "}
-						<span className="text-accent font-medium">
-							Get ready to be understood deep down…
-						</span>
+						We are a team of{" "}
+						<span className="tech">scientists and engineers</span> who decided
+						to join forces to create a unique and innovative product to disrupt
+						an industry that has been unjustly stalling for decades.
 					</p>
 				</div>
 				<div></div>
+
+				<div className="col-span-2 sm:col-start-2 sm:text-center max-w-2xl px-8 col-start-1 mb-40">
+					<h1 className="text-5xl font-bold text-main text-center">
+						Mission and Impact Driven
+					</h1>
+
+					<p className="text-xl font-light mt-6">
+						At Evaline, we believe{" "}
+						<span className="sexual">
+							sexual health is a fundamental aspect of being human
+						</span>
+						. Our mission is to create technology that enhances and elevates the
+						sexual experience, aligning closely with women&apos;s needs and
+						desires. EvaVibe isn&apos;t just another vibrating device;{" "}
+						<span className="tech">
+							it&apos;s a tool for self-discovery and self-expression.
+						</span>
+						<br></br>
+						<br></br>
+						We are rigorously sustainable, both in terms of materials and supply
+						chain, our device is not{" "}
+						<span className="sexual">only good for your body</span>,{" "}
+						<span className="tech">but also for the planet</span>.
+					</p>
+				</div>
+
+				<div className="col-span-2 sm:col-start-1 sm:text-center max-w-2xl px-8 mb-40">
+					<h1 className="text-5xl font-bold text-main text-center">
+						Contact us
+					</h1>
+
+					<p className="text-xl font-light mt-6">
+						Have questions or want to connect with Evaline? Our friendly team is
+						here to assist you on your journey to a more empowered and intimate
+						you. Reach out to our social channels, and{" "}
+						<span className="tech">
+							let&apos;s embark on this exploration together
+						</span>
+						!
+					</p>
+				</div>
+				<div></div>
+
 				<hr className="col-span-full mt-40 opacity-30"></hr>
 			</div>
 
@@ -3456,17 +3413,20 @@ export default function Home() {
 					target={"_blank"}
 					rel="noreferrer"
 				>
-					<BsInstagram size={"20px"} className="mr-2" />{" "}
+					<BsInstagram
+						size={"20px"}
+						className="mr-2"
+					/>{" "}
 					<p> the.evaline</p>
 				</a>
-				<a
+				{/* <a
 					className="text-text hover:text-main transition-all duration-200 flex flex-row justify-start items-center cursor-pointer "
 					href="https://obelussoft.com/"
 					target={"_blank"}
 					rel="noreferrer"
 				>
 					<p className="text-right w-full"> Designed by Obelsoft</p>
-				</a>
+				</a> */}
 			</div>
 		</main>
 	);
