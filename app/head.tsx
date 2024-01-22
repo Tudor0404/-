@@ -6,8 +6,14 @@ export default function Head() {
 				content="width=device-width, initial-scale=1"
 				name="viewport"
 			/>
-			<meta name="description" content="Innovating pleasure with AI" />
-			<link rel="icon" href="/favicon.ico" />
+			<meta
+				name="description"
+				content="Own Your Pleasure"
+			/>
+			<link
+				rel="icon"
+				href="/favicon.ico"
+			/>
 		</>
 	);
 }
